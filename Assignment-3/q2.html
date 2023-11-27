@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+      $(".p1").click(function(){
+        alert("you clicked once");
+        $(".p2").dblclick(function(){
+            alert("you clicked once again");
+
+        });
+        
+      });
+    });
+    </script>
+</head>
+<body>
+    <p class="p1">Click once</p>
+    <p class="p2">Click once again</p>
+</body>
+</html>
